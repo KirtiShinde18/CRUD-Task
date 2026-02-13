@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kirtishinde/Desktop/SkillHub/fullstack/crud-todo-task/client/app/admin/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Dashboard = () => {\n  return (\n    <div>Dashboard</div>\n  )\n}\n\nexport default Dashboard"],"names":[],"mappings":";;;;;;AAEA,MAAM,YAAY;IAChB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}

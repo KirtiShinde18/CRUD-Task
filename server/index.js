@@ -1,33 +1,29 @@
-
-require("dotenv").config()
 const express = require("express")
-const cors = require("cors")
+require("dotenv").config({ path: "./.env" })
 const mongoose = require("mongoose")
-const FRONTEND_URL = require("./utils/config.js")
+const cors = require("cors")
+
 mongoose.connect(process.env.MONGO_URL)
 
 const app = express()
-app.use(express.json()) // 👈🏻 body parser middleware
 
+
+// app.use(limiter)
 app.use(cors({
 origin: process.env.NODE_ENV === 'production'
 ? 'https://crud-task-client.vercel.app'
 : 'http://localhost:3000',
 credentials: true
 }));
-// app.use(cors({origin: FRONTEND_URL, credentials: true }))
+
+app.use(express.json()) // for req.body
 
 app.use("/api/todo", require("./routes/todo.routes.js"))
 
 mongoose.connection.once("open", () => {
-    console.log("db connected");
-    app.listen(process.env.PORT, () => {
-        console.log(`Server Running On PORT ${process.env.PORT}`);
-        console.log(`Environment ${process.env.NODE_ENV}`);
-        console.log(`CORS Allowed ${FRONTEND_URL}`);
-        
-    })
-    
+    console.log("db connected")
+    app.listen(process.env.PORT, console.log("server running..."))
 })
 
 module.exports = app;
+

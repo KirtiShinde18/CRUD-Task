@@ -12,3 +12,8 @@
 [00:12:58.312] Server  LOG     ✓ Compiled in 31ms
 [00:13:10.351] Server  LOG     ✓ Compiled in 33ms
 [00:29:53.884] Server  LOG     ✓ Compiled in 24ms
+[00:57:48.060] Server  LOG       Reload env: .env
+[01:16:22.736] Server  LOG       Reload env: .env
+[01:18:05.917] Server  LOG       Reload env: .env
+[01:18:06.118] Server  LOG     ✓ Compiled in 175ms
+[01:19:07.262] Server  LOG       Reload env: .env

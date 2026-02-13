@@ -1312,3 +1312,4 @@ Import traces:
     ./app/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[00:13:42.412] Server  LOG       Reload env: .env

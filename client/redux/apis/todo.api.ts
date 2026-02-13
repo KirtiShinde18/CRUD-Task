@@ -1,6 +1,6 @@
 // srtapi 
 
-import { APP_URL } from "@/constants/config"
+import { APP_URL } from "@/constants/config.js"
 import { Todo } from "@/types/Todo"
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 

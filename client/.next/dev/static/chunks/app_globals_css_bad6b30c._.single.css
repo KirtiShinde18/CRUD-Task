@@ -321,6 +321,7 @@
 }
 
 :root {
+  --background: #fff;
   --foreground: #171717;
 }
 

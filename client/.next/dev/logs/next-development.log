@@ -1,1 +1,1314 @@
-[00:00:00.756] Server  LOG     ✓ Ready in 554ms
+[00:00:00.544] Server  LOG     ✓ Ready in 364ms
+[00:01:18.386] Server  LOG       Reload env: .env
+[00:01:18.645] Server  LOG     ✓ Compiled in 234ms
+[00:06:49.299] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.300] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.301] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.301] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.302] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.302] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.302] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.303] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.304] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.304] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.304] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.305] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.305] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.306] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.306] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.306] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.307] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.307] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.307] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.307] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.309] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.310] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.310] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.311] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.311] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.311] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.311] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.312] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.312] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.312] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.312] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.312] Server  ERROR   ⨯ ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:49.334] Server  LOG     ✓ Compiled in 81ms
+[00:06:49.439] Browser ERROR   ./redux/apis/todo.api.ts:3:1
+Module not found: Can't resolve '@/constants/config.js'
+  1 | // srtapi 
+  2 |
+> 3 | import { APP_URL } from "@/constants/config.js"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Todo } from "@/types/Todo"
+  5 | import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
+  6 |
+
+Import map: aliased to relative './constants/config.js' inside of [project]/
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./redux/apis/todo.api.ts [Client Component Browser]
+    ./redux/store.ts [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Client Component Browser]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./redux/apis/todo.api.ts [Client Component SSR]
+    ./redux/store.ts [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Client Component SSR]
+    ./redux/ReduxProvider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found

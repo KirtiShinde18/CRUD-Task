@@ -12,7 +12,7 @@ __turbopack_context__.s([
     "APP_URL",
     ()=>APP_URL
 ]);
-const APP_URL = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : process.env.NEXT_PUBLIC_LOCAL_BACKEND_URL;
+const APP_URL = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : ("TURBOPACK compile-time value", "http://localhost:5001");
 }),
 "[project]/redux/apis/todo.api.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
